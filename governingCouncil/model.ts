@@ -1,4 +1,6 @@
-export interface GoverningCouncilModel{
+import { ModelDocument } from "../document";
+
+export interface GoverningCouncilModel extends ModelDocument{
   imageId?: string;
   name?: string;
   designation?: string;

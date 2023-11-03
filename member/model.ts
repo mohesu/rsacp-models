@@ -1,4 +1,6 @@
-export interface MemberModel{
+import { ModelDocument } from "../document";
+
+export interface MemberModel  extends ModelDocument{
   name?: string;
   dob?: Date;
   qualification?: string;
