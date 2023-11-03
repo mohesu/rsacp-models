@@ -1,6 +1,9 @@
 import { ModelDocument } from "../document";
 
-export interface DownloadModel extends ModelDocument{
+export interface DownloadModel extends ModelDocument, DownloadModelRequest{
+  
+}
+export interface DownloadModelRequest {
   url?: string;
   title?: string;
 }

@@ -1,12 +1,15 @@
 import { ModelDocument } from "../document";
 
-export interface MemberModel  extends ModelDocument{
+export interface MemberModel  extends ModelDocument , MemberModelRequest{
+ 
+}
+export interface MemberModelRequest {
   name?: string;
   dob?: Date;
   qualification?: string;
   designation?: string;
-  house: string;
-  area: string;
+  house?: string;
+  area?: string;
   imageId?: string;
   city?: string;
   pincode?: string;
@@ -14,16 +17,16 @@ export interface MemberModel  extends ModelDocument{
   country?: string;
   email?: string;
   mobile?: string; 
-  tel: string;
-  refName1: string;
-  refName2: string;
-  refMemNo1: string;
-  refMemNo2: string;
-  paymentMode: string;
-  transectionId: string;
-  amount:string;
-  bankName: string;
-  transactionDate: Date;
-  membershipNo: string;
-  landmark: string;
+  tel?: string;
+  refName1?: string;
+  refName2?: string;
+  refMemNo1?: string;
+  refMemNo2?: string;
+  paymentMode?: string;
+  transectionId?: string;
+  amount?:string;
+  bankName?: string;
+  transactionDate?: Date;
+  membershipNo?: string;
+  landmark?: string;
 }

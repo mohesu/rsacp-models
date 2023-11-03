@@ -1,6 +1,9 @@
 import { ModelDocument } from "../document";
 
-export interface RsacpAwardModel extends ModelDocument{
-  title: string;
-  description: string;
+export interface RsacpAwardModel extends ModelDocument, RsacpAwardModelRequest{
+ 
+}
+export interface RsacpAwardModelRequest {
+  title?: string;
+  description?: string;
 }

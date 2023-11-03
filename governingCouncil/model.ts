@@ -1,6 +1,10 @@
 import { ModelDocument } from "../document";
 
-export interface GoverningCouncilModel extends ModelDocument{
+export interface GoverningCouncilModel extends ModelDocument, GoverningCouncilModelRequest{
+
+}
+
+export interface GoverningCouncilModelRequest {
   imageId?: string;
   name?: string;
   designation?: string;
@@ -8,5 +12,5 @@ export interface GoverningCouncilModel extends ModelDocument{
   email?: string;
   city?: string;
   state?: string;
-  type: string;
+  type?: string;
 }
