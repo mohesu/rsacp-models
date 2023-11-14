@@ -23,10 +23,12 @@ export interface MemberModelRequest {
   refMemNo1?: string;
   refMemNo2?: string;
   paymentMode?: string;
-  transectionId?: string;
+  transactionId?: string;
   amount?:string;
   bankName?: string;
   transactionDate?: Date;
   membershipNo?: string;
   landmark?: string;
+  address?: string;
+  membershipCode?:string;
 }
