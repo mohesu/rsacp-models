@@ -31,4 +31,6 @@ export interface MemberModelRequest {
   landmark?: string;
   address?: string;
   membershipCode?:string;
+  firstName?:string;
+  lastName?:string;
 }
