@@ -45,3 +45,9 @@ export enum MemberStatus{
   Approved = "Approved",
   Rejected = "Rejected"
 }
+
+export enum MemberQualification{
+  MD = "MD",
+  MS = "MS",
+  DNB = "DNB",
+}
