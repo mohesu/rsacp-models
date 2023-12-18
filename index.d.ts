@@ -5,7 +5,7 @@ import { DownloadModel,DownloadModelRequest } from "./download/model";
 import { GoverningCouncilModel,GoverningCouncilModelRequest } from "./governingCouncil/model";
 import { NoticeModel,NoticeModelRequest } from "./notice/model";
 import { MemberModel,MemberModelRequest,MemberStatus,
-  MemberQualification,MemberQualificationList,MemberStatusList } from "./member/model";
+  MemberQualification,memberQualificationList,memberStatusList } from "./member/model";
 
 import { PhotoModel,PhotoModelRequest } from "./photo/model";
 import { RsacpAwardModel,RsacpAwardModelRequest } from "./rsacpAwards/model";
