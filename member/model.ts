@@ -45,9 +45,19 @@ export enum MemberStatus{
   Approved = "Approved",
   Rejected = "Rejected"
 }
+export const MemberStatusList = [
+  MemberStatus.Pending,
+  MemberStatus.Approved,
+  MemberStatus.Rejected
+]
 
 export enum MemberQualification{
   MD = "MD",
   MS = "MS",
   DNB = "DNB",
 }
+export const MemberQualificationList = [
+  MemberQualification.MD,
+  MemberQualification.MS,
+  MemberQualification.DNB,
+]
