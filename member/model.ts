@@ -33,4 +33,15 @@ export interface MemberModelRequest {
   membershipCode?:string;
   firstName?:string;
   lastName?:string;
+  paymentScreenshotId?:string;
+  qualificationName?:string;
+  qualificationDocumentId?:string;
+  status?:string;
+}
+
+
+export enum MemberStatus{
+  Pending = "Pending",
+  Approved = "Approved",
+  Rejected = "Rejected"
 }
