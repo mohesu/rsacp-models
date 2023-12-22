@@ -37,6 +37,7 @@ export interface MemberModelRequest {
   qualificationName?:string;
   qualificationDocumentId?:string;
   status?:string;
+  userId?:string;
 }
 
 
