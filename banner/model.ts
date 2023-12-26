@@ -9,4 +9,5 @@ export interface BannerModelRequest {
   description?: string;
   link?: string;
   imageId?: string;
+  isActive?:boolean;
 }
